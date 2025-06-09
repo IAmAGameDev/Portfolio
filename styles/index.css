@@ -1,8 +1,32 @@
-.welcome-section {
+.welcome {
   padding: 20px 0 15px 0;
   display: flex;
 }
 
-.welcome-section-me {
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 20px;
   width: 50%;
+}
+
+.welcome-section-name {
+  padding: 0 0 0 0;
+  font-size: 100px;
+  font-weight: 500;
+  font-style: italic;
+  flex: 0.75;
+  display: flex;
+  align-items: end;
+}
+
+.welcome-section-title {
+  font-size: 20px;
+}
+
+.welcome-section-name,
+.welcome-section-title,
+.about-me,
+.div-title {
+  margin: 0;
 }
