@@ -1,0 +1,8 @@
+.welcome-section {
+  padding: 20px 0 15px 0;
+  display: flex;
+}
+
+.welcome-section-me {
+  width: 50%;
+}
