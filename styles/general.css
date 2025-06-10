@@ -1,6 +1,6 @@
 body {
   font-family: Roboto, Arial;
-  margin: 100px 0 0 0;
+  margin-top: 100px;
   padding-top: 0;
 }
 
@@ -8,4 +8,11 @@ body {
 .hr-solid {
   border-top: 2px solid black;
   margin: 0;
+}
+
+/* Max width > 767px */
+@media (max-width: 767px) {
+  body {
+    margin-top: 200px;
+  }
 }
