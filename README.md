@@ -26,4 +26,5 @@ This content may not be reproduced, distributed, modified, or used in any way wi
 **Third-Party Assets:**
 
 This project utilizes third-party assets under their respective licenses. Specific attributions and licensing details for these assets can be found below:
- **[]**: Source: [], License: [].
+
+* **GitHub Mark (github-mark.svg):** Source: https://github.com/logos, License: Used under GitHub's brand guidelines for referential display.
