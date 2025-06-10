@@ -19,7 +19,7 @@ Provided that:
 **Content & Assets**
 
 **Your Original Content & Assets:**
-All original creative content within this repository (including but not limited to images, videos, and custom design elements found in directories like `images/MyImages/` or `videos/MyVideos/` if applicable, or any other specifically marked subfolders containing my original work) is **© IAmAGameDev 2025 - All Rights Reserved**.
+All original creative content within this repository (including but not limited to images, videos, and custom design elements found in directories like `images/myImages/` or `videos/myVideos/` if applicable, or any other specifically marked subfolders containing my original work) is **© IAmAGameDev 2025 - All Rights Reserved**.
 
 This content may not be reproduced, distributed, modified, or used in any way without the prior written consent of the copyright holder. It is provided for viewing purposes only as part of this portfolio showcase.
 
