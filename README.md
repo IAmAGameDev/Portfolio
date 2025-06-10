@@ -10,11 +10,13 @@ This repository contains the code for my personal portfolio website, showcasing 
 
 The code in this repository (including HTML, CSS, JavaScript files, and build scripts) is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for full details.
 
-You are free to: 
-* Use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the **Software**.
+You are free to:
+
+- Use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the **Software**.
 
 Provided that:
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the **Software**.
+
+- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the **Software**.
 
 **Content & Assets**
 
@@ -27,6 +29,7 @@ This content may not be reproduced, distributed, modified, or used in any way wi
 
 This project utilizes third-party assets under their respective licenses. Specific attributions and licensing details for these assets can be found below:
 
-* **GitHub Mark (github-mark.svg):** Source: https://github.com/logos, License: Used under GitHub's brand guidelines for referential display.
-* **itch.io Logo (itchio-logo-textless-black.svg):** Source: https://itch.io/press-kit, License: Used under itch.io's brand guidelines for referential display.
-* **[in] Logo (LI-In-Bug.png):** Source: https://brand.linkedin.com/downloads, License: Used under LinkedIn's brand and user agreements for referential display.
+- **GitHub Mark (github-mark.svg):** Source: https://github.com/logos, License: Used under GitHub's brand guidelines for referential display.
+- **itch.io Logo (itchio-logo-textless-black.svg):** Source: https://itch.io/press-kit, License: Used under itch.io's brand guidelines for referential display.
+- **[in] Logo (LI-In-Bug.png):** Source: https://brand.linkedin.com/downloads, License: Used under LinkedIn's brand and user agreements for referential display.
+- **Google Fonts - Roboto & Material Icons:** Source: https://fonts.google.com/, License: Various open-source licenses, including the SIL Open Font License, Apache License, and Ubuntu Font License. Please refer to the specific font pages on the Google Fonts website for precise terms of use and redistribution.

@@ -1,25 +1,26 @@
 .welcome {
-  padding: 20px 0 15px 0;
-  display: flex;
-}
-
-.welcome-section {
-  display: flex;
-  flex-direction: column;
-  padding: 0 20px;
-  width: 50%;
+  text-align: center;
+  padding: 0 0 15px 0;
 }
 
 .welcome-section-name {
-  font-size: 100px;
-  flex: 0.75;
-  display: flex;
-  align-items: end;
+  font-size: 15vw;
+}
+
+.welcome-section {
+  margin: 20px;
 }
 
 .welcome-section-title,
 .about-me {
-  font-size: 20px;
+  font-size: 4vw;
+}
+
+.welcome-section-name,
+.welcome-section-title,
+.about-me,
+.div-title {
+  margin: 0;
 }
 
 /* Italic Bold Titles */
@@ -35,9 +36,34 @@
   border-bottom: 1px solid black;
 }
 
-.welcome-section-name,
-.welcome-section-title,
-.about-me,
-.div-title {
-  margin: 0;
+.about-me {
+  margin: 20px;
+}
+
+/* Desktop */
+@media (min-width: 767px) {
+  .welcome {
+    text-align: justify;
+    padding: 20px 0 15px 0;
+    display: flex;
+  }
+
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    width: 50%;
+  }
+
+  .welcome-section-name {
+    font-size: 100px;
+    flex: 0.75;
+    display: flex;
+    align-items: end;
+  }
+
+  .welcome-section-title,
+  .about-me {
+    font-size: 20px;
+  }
 }
