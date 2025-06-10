@@ -28,3 +28,5 @@ This content may not be reproduced, distributed, modified, or used in any way wi
 This project utilizes third-party assets under their respective licenses. Specific attributions and licensing details for these assets can be found below:
 
 * **GitHub Mark (github-mark.svg):** Source: https://github.com/logos, License: Used under GitHub's brand guidelines for referential display.
+* **itch.io Logo (itchio-logo-textless-black.svg):** Source: https://itch.io/press-kit, License: Used under itch.io's brand guidelines for referential display.
+* **[in] Logo (LI-In-Bug.png):** Source: https://brand.linkedin.com/downloads, License: Used under LinkedIn's brand and user agreements for referential display.
