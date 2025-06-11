@@ -10,9 +10,6 @@ body {
   margin: 0;
 }
 
-/* Max width > 767px */
+/* Desktop */
 @media only screen and (min-width: 767px) {
-  body {
-    margin: 100px 0 0 0;
-  }
 }
