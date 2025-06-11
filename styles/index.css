@@ -47,6 +47,11 @@
 
 .about-me {
   margin: 20px;
+  font-size: 20px;
+}
+
+.tag {
+  display: inline;
 }
 
 /* Desktop */
@@ -72,12 +77,35 @@
     align-items: center;
   }
 
+  .welcome-video-section {
+    flex: 1;
+  }
+
   .welcome-section-title,
   .about-me {
     font-size: 20px;
   }
 
-  .welcome-video-section {
+  .about-me {
+    text-align: center;
+  }
+
+  .projects-section {
+    margin: 20px 0 20px 0;
+  }
+
+  .project-div {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .video-container {
+    flex: 0.75;
+    display: flex;
+    justify-content: end;
+  }
+
+  .description-container {
     flex: 1;
   }
 }
