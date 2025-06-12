@@ -7,7 +7,7 @@ const data = [
     links: [
       {
         title: 'Read More',
-        link: '/styledHierarchy.html',
+        link: 'styledHierarchy.html',
       },
       {
         title: 'itch.io',
@@ -28,7 +28,7 @@ const data = [
     links: [
       {
         title: 'Read More',
-        link: '/bloom.html',
+        link: 'bloom.html',
       },
       {
         title: 'itch.io',
@@ -95,10 +95,10 @@ data.forEach((element) => {
       image.height = '20';
       image.classList.add('link-image');
       if (linkElement.title === 'itch.io') {
-        image.src = '/images/itchio-logo-textless-black.svg';
+        image.src = 'images/itchio-logo-textless-black.svg';
         image.alt = 'itch.io Logo';
       } else {
-        image.src = '/images/github-mark.svg';
+        image.src = 'images/github-mark.svg';
         image.alt = 'LinkedIn Logo';
       }
       button.append(image);
