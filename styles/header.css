@@ -21,6 +21,13 @@
   align-items: center;
 }
 
+.header-link {
+  text-decoration: none;
+}
+.header-link:visited {
+  color: black;
+}
+
 .header-name {
   font-size: 20px;
   font-weight: 500;

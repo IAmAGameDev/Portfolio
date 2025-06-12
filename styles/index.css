@@ -28,13 +28,16 @@
 .welcome-section-name,
 .welcome-section-title,
 .about-me,
-.div-title {
+.div-title,
+.project-title,
+.project-description {
   margin: 0;
 }
 
 /* Italic Bold Titles */
 .welcome-section-name,
-.div-title {
+.div-title,
+.project-title {
   font-style: italic;
   font-weight: 500;
 }
@@ -50,8 +53,17 @@
   font-size: 20px;
 }
 
+/* Projects */
 .tag {
   display: inline;
+  font-size: 12px;
+  padding: 3px;
+  margin: 2px;
+  background-color: rgb(175, 175, 175);
+}
+
+.tags-div {
+  margin-top: 10px;
 }
 
 /* Desktop */
@@ -90,22 +102,79 @@
     text-align: center;
   }
 
+  /* Projects */
   .projects-section {
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
   }
 
   .project-div {
     display: flex;
-    margin-bottom: 10px;
+    justify-content: center;
+    margin: 20px;
   }
 
   .video-container {
-    flex: 0.75;
+    width: 420px;
     display: flex;
+    margin-right: 20px;
     justify-content: end;
   }
 
+  .project-video {
+    max-width: 100%;
+  }
+
   .description-container {
-    flex: 1;
+    width: 500px;
+  }
+
+  .project-title {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .project-description {
+    margin: 10px 0;
+    font-size: 11px;
+  }
+
+  .buttons-div {
+    display: flex;
+    column-gap: 10px;
+    width: 350px;
+  }
+
+  .link-buttons {
+    padding: 6px;
+    border: 1px solid black;
+    font-size: 14px;
+  }
+  .link-buttons:visited {
+    color: black;
+  }
+
+  .link-image {
+    margin-right: 5px;
+  }
+
+  .link-image,
+  .link-title {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .material-symbols-outlined.link-image {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .project-title {
+    font-size: 20px;
+  }
+
+  .project-description {
+    font-size: 14px;
   }
 }
