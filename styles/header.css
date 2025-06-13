@@ -23,6 +23,7 @@
 
 .header-link {
   text-decoration: none;
+  color: black;
 }
 .header-link:visited {
   color: black;

@@ -80,8 +80,6 @@ data.forEach((element) => {
     const button = document.createElement('a');
     button.classList.add('link-buttons');
     button.href = linkElement.link;
-    button.target = '_blank';
-    button.rel = 'noopener noreferrer';
 
     if (linkElement.title === 'Read More') {
       const span = document.createElement('span');
@@ -90,6 +88,9 @@ data.forEach((element) => {
       span.textContent = 'read_more';
       button.append(span);
     } else {
+      button.target = '_blank';
+      button.rel = 'noopener noreferrer';
+
       const image = document.createElement('img');
       image.width = '20';
       image.height = '20';
@@ -124,8 +125,17 @@ data.forEach((element) => {
 
   descriptionContainer.append(tagsDiv);
 
-  projectDiv.append(videoContainer);
-  projectDiv.append(descriptionContainer);
+  if (isMobile()) {
+    projectDiv.append(descriptionContainer);
+    projectDiv.append(videoContainer);
+  } else {
+    projectDiv.append(videoContainer);
+    projectDiv.append(descriptionContainer);
+  }
 
   projectBox.appendChild(projectDiv);
 });
+
+function isMobile() {
+  return window.innerWidth < 767 || screen.width < 767;
+}
